@@ -58,32 +58,3 @@ plt.scatter(data.x[data.label == 1 ],data.y[data.label == 1],color = "green")
 plt.scatter(data.x[data.label == 2 ],data.y[data.label == 2],color = "blue")
 plt.scatter(kmeans2.cluster_centers_[:,0],kmeans2.cluster_centers_[:,1],color = "yellow")
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
